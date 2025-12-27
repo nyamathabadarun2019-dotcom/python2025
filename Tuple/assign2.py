@@ -1,0 +1,9 @@
+colours=["red","yellow","green","blue","black"]
+my_tuple=tuple(colours)
+print(my_tuple)
+my_list=list(my_tuple)
+my_list.append("white")
+print(my_list)
+my_list2=tuple(my_list)
+print(my_list2)
+print(type(my_list2))
