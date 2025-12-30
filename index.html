@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--Root element-->
+
+<html lang="en">
+<head>
+    <!--Metadata ,not visible to users on webpage-->
+    <!--Includes title,character eencodind,scrits,styles-->
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,intial-scale=1.0">
+    <title>MET HOME </title>
+</head>
+<body>
+    <!--Cointains visible content-->
+    <!--Everything users see interact goes here-->
+    <!--1. Text content tags-->
+    <!--Headings-->
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+    <h7>Hello World</h7>
+
+
+    <p>This is short message about <b>Medha edu tech</b>.
+    <br>
+    <hr>
+    It contains serveral coching departments like <u><i><mark>python full stack,data science,etc</mark></i></u>.</p>
+    <del>Another word</del>
+
+
+    <!--2.  List Tags -->
+    <ul>
+        <li>
+           First iteam 
+        </li>
+        <li>
+            second iteam
+        </li>
+    </ul>
+
+
+    <ol>
+        <li>
+            first iteam
+        </li>
+        <li>
+            second iteam
+        </li>
+    </ol>
+
+
+    <!-- 3.  Link  &  Media Tags-->
+     <a href="https://www.medhaedutech.in" target="_blank" title="medha site">
+        click here
+    </a>
+    <br>
+    <a  href="mailto:info@medhaedutech.in" target="_blank">
+        click here
+     </a>
+     <br>
+     <a href="tel:+7396933380" target="_blank">
+        click here
+     </a>
+     <br>
+
+
+
+     <img src = "https://png.pngtree.com/thumb_back/fh260/background/20240720/pngtree-image-of-a-lion-roaring-fiercely-surrounded-by-fiery-flames-image_16017525.jpg">
+
+     <br>
+     <audio controls>
+        <source src="https://www.w3schools.com/html/horse.ogg">
+
+     </audio>
+     <br>
+
+
+     <video controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4">
+
+     </video>
+     <br>
+
+
+
+     <!-- 4.  Table Tags-->
+
+     <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+                
+            </tbody>
+            <tr>
+                <td>john</td>
+                <td>67</td>
+            </tr>
+     </table>
+
+     </table>
+     <!-------------------------------------------------------------------------------------->
+ 
+      
+     <!-- 5. Form Tags  -->
+      <!--This form element wraps all form controls
+      and defines how data is submitted -->
+
+      <form action="/submit" method="post">
+
+        <!-- 5.1 Text input tags-->
+        <input type = "text" name = "username" placeholder='Enter username'> <br>
+        <input type = "email" name = "email" placeholder='Enter email'>  <br>
+        <input type = "password" name = "password" placeholder='Enter password'> <br>
+        <input type = "tel" name = "name" placeholder=" Enter number"> <br>
+        
+
+
+
+       <!--5.2 Numbers and Dates-->
+
+         <input type = "number" name = "age" min="18" step='1' max="35" placeholder='Enter age'>
+         <input type = "date" name = "birthday" min="2000-01-01" max="2015-01-01" placeholder='Enter age'>
+         <input type = "time" name = "appointment"  >
+         <input type = "datetime-local" name = "even time" >
+         <input type = "month" name = "even month">
+         <input type = "week" name = "even week">
+         <input type = "range" name = "volume" min="1" max="10">
+
+
+            
+         <!-- 5.3 Selection Inputs------>
+         
+         <input type="checkbox" name="interests" id="music">
+         <lable for="music"> Music</lable>
+        
+         
+         <input type="checkbox" name="interests" id="dance">
+         <lable for="dance"> Dance</lable>
+
+         
+         <input type="checkbox" name="interests" id="games">
+         <lable for="games"> Games</lable>
+
+
+
+
+         
+         <input type="radio" name="interests" id="music">
+         <lable for="music"> Music</lable>
+        
+         
+         <input type="radio" name="interests" id="dance">
+         <lable for="dance"> Dance</lable>
+
+         
+         <input type="radio" name="interests" id="games">
+         <lable for="games"> Games</lable> 
+
+
+
+         <!------5.4   File and colour inputs---------->
+
+        <input type="file" name="interests" accept="pdf,doc,docx" miutiple>
+        <input type="color" name="color">
+        <input type="hidden" name="user_id" value="abc123">
+        
+        
+
+        <!-----5.5 Button Input------>
+
+        <input type="button" value="click me">
+        <input type="submit">
+        <input type="reset">
+
+        <button type="submit">submit </button>
+
+      </form>
+
+
+
+
+</html>
