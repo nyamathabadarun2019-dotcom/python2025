@@ -1,0 +1,6 @@
+tuple_0=("dog","cat","elephant","lion","tiger")
+tuple_1=list(tuple_0)
+tuple_1.remove("elephant")
+tuple_1.append("cheetah")
+tuple_2=tuple(tuple_1)
+print(tuple_2)

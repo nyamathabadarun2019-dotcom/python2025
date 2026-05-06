@@ -1,0 +1,5 @@
+list = ["wake up", "Exercise", "work"]
+del list[2]
+list.pop(1)
+list.remove("wake up")
+print(list)
